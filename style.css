@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Utilty Classes */
@@ -34,7 +34,7 @@ body {
 
 .logo {
     height: 40px;
-    width: auto;
+    width: auto;    
 }
 .logo:hover {
     cursor: pointer;
@@ -43,16 +43,15 @@ body {
 /* Navbar */
 #navbar {
     display: flex;
-    background: rgba(0, 0, 0, 0.6);
+    background: black;
     justify-content: center;
     color: white;
-    position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
 }
 
 #navbar .navbar-container {
-    width: 60%;
+    width: 84%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -63,11 +62,12 @@ body {
 #navbar .navbar-container ul {
     display: flex;
     list-style: none;
-    font-weight: bold;
+    font-weight: normal;
+    font-size: 15px;
 }
 
 #navbar .navbar-container ul li {
-    padding: 0 20px;
+    padding: 0px 19px;
     transition: all 300ms ease;
 }
 
@@ -88,7 +88,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    background: url('/img/img/showcase.webp') center center/cover;
+    background: url('/img/showcase.webp') center center/cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: color;
 }
@@ -118,7 +118,7 @@ body {
 
 #footer .footer-content {
     display: flex;
-    width: 60%;
+    width: 84%;
     margin: auto;
     justify-content: space-between;
 }
@@ -131,6 +131,7 @@ body {
 #footer .footer-content .footer-menu .footer-menu-item {
     margin: 25px 0;
     transition: all 300ms ease;
+    font-size: 16px;
 }
 #footer .footer-content .footer-menu .footer-menu-item:hover {
     color: var(--default-green);
@@ -141,7 +142,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     color: #919496;
-    font-size: 0.8rem;
+    font-size: 12px;
 }
 
 .socials {
@@ -165,7 +166,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    width: 60%;
+    width: 84%;
     margin: auto;
     font-weight: bold;
     color: #919496;
@@ -208,5 +209,3 @@ body {
     display: inline-block;
     margin-left: 10px;
 }
-
-/* Made in Dec/28/2020 by Lucas */
